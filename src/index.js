@@ -5,7 +5,7 @@ import Counter from './Counter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Counter max={15} step={5} />
   </React.StrictMode>,
   document.getElementById('root')
 );
